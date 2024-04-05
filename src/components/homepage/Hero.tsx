@@ -9,7 +9,7 @@ function Hero() {
   const text = "Payroll";
   const animateWord = text.split("");
   return (
-    <section className="bg-[url(/images/texture.png)] bg-repeat stp-30 hero_bg_gradient overflow-hidden">
+    <section className="bg-[url(/images/texture.png)] bg-repeat stp-30  overflow-hidden">
       <img
         src={heroBgElement1}
         alt=""
