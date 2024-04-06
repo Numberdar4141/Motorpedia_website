@@ -11,8 +11,7 @@ function Footer() {
             <img src={logo} alt="" />
           </div>
           <p className="">
-            Your trusted partner in accounting and payroll solutions. We deliver
-            precision, efficiency, and tailored services
+          Your trusted partner in automotive accounting and payroll solutions. We deliver precision, efficiency, and tailored services with personalized care
           </p>
           <ul className="flex justify-start items-center gap-2">
             {socialLinks.map(({ id, link, icon }, idx) => (
@@ -91,7 +90,7 @@ function Footer() {
       <div className="border-t border-white/10">
         <div className="container py-6 flex justify-between items-center max-md:flex-col gap-6">
           <p className=" max-sm:text-center">
-            Accupay © Copyright {new Date().getFullYear()}. All Rights Reserved.
+            MotorPedia © Copyright {new Date().getFullYear()}. All Rights Reserved.
           </p>
           <div className="flex justify-end items-center">
             <Link

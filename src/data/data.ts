@@ -347,12 +347,12 @@ export const footerLinks = [
     links: [
       {
         id: uuidv4(),
-        name: "Accounting Services",
+        name: "Digitalizepro Services",
         link: "/services/accounting-services",
       },
       {
         id: uuidv4(),
-        name: "Taxations Services",
+        name: "RTO Services",
         link: "/services/taxation-services",
       },
       {
@@ -376,21 +376,21 @@ export const getInTouch = [
     links: [
       {
         id: uuidv4(),
-        name: "admin@mail.com",
-        link: "mailto:example@mail.com",
+        name: "themotorpedia@gmail.com",
+        link: "mailto:themotorpedia@gmail.com",
         isLink: true,
         icon: React.createElement(MdOutlineEmail),
       },
       {
         id: uuidv4(),
-        name: "+ 123 456 789",
+        name: "+91 99999-61887",
         isLink: true,
-        link: "tel:(000) 123 456 789",
+        link: "tel:+91 99999-61887",
         icon: React.createElement(PiPhoneCallBold),
       },
       {
         id: uuidv4(),
-        name: "255 Sheet, City Name Home Land, NY",
+        name: "TR24, 3rd Floor, JMD Empire Square Mall, MG Road, Gurugram, Haryana India - 122001",
         isLink: false,
         icon: React.createElement(MdOutlineLocationOn),
       },
@@ -560,66 +560,66 @@ export const testimonials = [
   {
     id: uuidv4(),
     img: testimonial1,
-    name: "Evelyn Alexander",
+    name: "Ashok Shukla",
     designation: "Small Business Owner",
     review:
-      "AccuPay's payroll solutions have transformed HR processes at Retail Innovations Ltd. The user-friendly platform",
+      "Outstanding service! Motorpedia RTO Services impressed me with their professionalism and expertise.",
   },
   {
     id: uuidv4(),
     img: testimonial2,
-    name: "Hunter Romero",
+    name: "Priyanshu Kumar",
     designation: "HR Manager",
     review:
-      "AccuPay's personalized service has been a game-changer for my small business. Efficient payroll processing.",
+      "Impeccable service! Motorpedia   Affordable solutions, top-quality results.Highly recommended for all automotive needs.",
   },
   {
     id: uuidv4(),
     img: testimonial3,
-    name: "Ora Wong",
+    name: "Vinay Patel",
     designation: "Finance Director",
     review:
-      "AccuPay's payroll solutions have transformed HR processes at Retail Innovations Ltd. The user-friendly platform",
+      "Remarkable service! Motorpedia showcased unparalleled professionalism and expertise. They're my go-to for all automotive needs. ",
   },
   {
     id: uuidv4(),
     img: testimonial4,
-    name: "Terry Cruz",
+    name: "Vinit Sharma",
     designation: "CEO, Tech Innovations",
     review:
-      "AccuPay's payroll solutions have transformed HR processes at Retail Innovations Ltd. The user-friendly platform",
+      "Their affordable rates and superior service quality make them my preferred option for all automotive needs. ",
   },
   {
     id: uuidv4(),
     img: testimonial5,
-    name: "Sarah McKinney",
+    name: "Lav Kush",
     designation: "Restaurant Owner",
     review:
-      "AccuPay's payroll solutions have transformed HR processes at Retail Innovations Ltd. The user-friendly platform",
+      "Highly impressed and satisfied with their commitment to excellence. My go-to choice for all car servicing needs",
   },
   {
     id: uuidv4(),
     img: testimonial6,
-    name: "Marguerite Potter",
+    name: "Parveen Shekhawat",
     designation: "CEO, Tech Innovations",
     review:
-      "AccuPay's payroll solutions have transformed HR processes at Retail Innovations Ltd. The user-friendly platform",
+      "Their cost-effective solutions and impeccable service quality make them my top recommendation for automotive needs.",
   },
   {
     id: uuidv4(),
     img: testimonial7,
-    name: "Isabelle McKinney",
+    name: "Jiya arya ",
     designation: "Product Manager",
     review:
-      "AccuPay's payroll solutions have transformed HR processes at Retail Innovations Ltd. The user-friendly platform",
+      "Absolutely thrilled with the service! Motorpedia showed unmatched professionalism and expertise",
   },
   {
     id: uuidv4(),
     img: testimonial8,
-    name: "Amy Gutierrez",
+    name: "Shreya Sharma",
     designation: "CFO, Solutions",
     review:
-      "AccuPay's payroll solutions have transformed HR processes at Retail Innovations Ltd. The user-friendly platform",
+      " With their affordable solutions and top-notch service quality, they've earned my trust. I highly recommend them for reliable car assistance",
   },
 ];
 
@@ -825,7 +825,7 @@ export const coreServices = [
   {
     id: uuidv4(),
     icon: React.createElement(PiUserFill),
-    title: "Accounting Services",
+    title: "Digitlisation Services",
     link: "/services/accounting-services",
     desc: "Efficient payroll management is at the heart of our services. Experience seamless payroll processing,",
   },

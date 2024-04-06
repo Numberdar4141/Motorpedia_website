@@ -20,12 +20,13 @@ function HomePage() {
       <CompanySlider />
       <SolutionsSection />
       <Features />
-      <CounterSection />
+      
       <StepByStepGuide />
       <WhyAccoupay />
       <Integrations />
       <ContactUsSection />
       <Testimonial />
+      <CounterSection />
       <PricingSection />
       <BlogSection />
       <ContactSection />
