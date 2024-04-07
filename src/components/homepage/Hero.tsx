@@ -9,7 +9,7 @@ function Hero() {
   const text = "Payroll";
   const animateWord = text.split("");
   return (
-    <section className="bg-[url(/images/texture.png)] bg-repeat stp-30  overflow-hidden">
+    <section className="bg-[url(/images/texture.png)] bg-repeat stp-30 hero_bg_gradient overflow-hidden">
       <img
         src={heroBgElement1}
         alt=""
@@ -51,11 +51,11 @@ function Hero() {
               to={"/contact"}
               className="font-medium bg-s2 py-2 lg:py-3 px-4 lg:px-6 rounded-full text-mainTextColor"
             >
-              Get Started
+              Know More
             </Link>
-            <Link to={"/faq"} className=" underline font-medium">
+            {/* <Link to={"/faq"} className=" underline font-medium">
               Learn More
-            </Link>
+            </Link> */}
           </div>
         </div>
         <div className="col-span-12 lg:col-span-6 lg:col-start-7">

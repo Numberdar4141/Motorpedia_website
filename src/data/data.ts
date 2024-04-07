@@ -51,12 +51,12 @@ import {
 } from "react-icons/pi";
 import { v4 as uuidv4 } from "uuid";
 
-import whyAccupayCard1 from "/images/whyAccoupayCard_1.png";
-import whyAccupayCard2 from "/images/whyAccoupayCard_2.png";
-import whyAccupayCard3 from "/images/whyAccoupayCard_3.png";
-import whyAccupayCard4 from "/images/whyAccoupayCard_4.png";
-import whyAccupayCard5 from "/images/whyAccoupayCard_5.png";
-import whyAccupayCard6 from "/images/whyAccoupayCard_6.png";
+import whyMotorpediaCard1 from "/images/whyAccoupayCard_1.png";
+import whyMotorpediaCard2 from "/images/whyAccoupayCard_2.png";
+import whyMotorpediaCard3 from "/images/whyAccoupayCard_3.png";
+import whyMotorpediaCard4 from "/images/whyAccoupayCard_4.png";
+import whyMotorpediaCard5 from "/images/whyAccoupayCard_5.png";
+import whyMotorpediaCard6 from "/images/whyAccoupayCard_6.png";
 
 import testimonial1 from "/images/testimonial1.png";
 import testimonial2 from "/images/testimonial2.png";
@@ -128,34 +128,34 @@ export const headerMenu = [
       },
       {
         id: uuidv4(),
-        name: "Payroll Processing",
+        name: "DigitalizePro Services",
         link: "/services/payroll-processing",
       },
       {
         id: uuidv4(),
-        name: "Accounting Services",
+        name: "RTO Services",
         link: "/services/accounting-services",
       },
       {
         id: uuidv4(),
-        name: "Taxation Services",
+        name: "Sale Enablement Services",
         link: "/services/taxation-services",
       },
-      {
-        id: uuidv4(),
-        name: "Real State Services",
-        link: "/services/real-state-services",
-      },
-      {
-        id: uuidv4(),
-        name: "Healthcare Services",
-        link: "/services/healthcare-services",
-      },
-      {
-        id: uuidv4(),
-        name: "Dentist Services",
-        link: "/services/dentist-services",
-      },
+      // {
+      //   id: uuidv4(),
+      //   name: "Real State Services",
+      //   link: "/services/real-state-services",
+      // },
+      // {
+      //   id: uuidv4(),
+      //   name: "Healthcare Services",
+      //   link: "/services/healthcare-services",
+      // },
+      // {
+      //   id: uuidv4(),
+      //   name: "Dentist Services",
+      //   link: "/services/dentist-services",
+      // },
     ],
   },
   {
@@ -347,7 +347,7 @@ export const footerLinks = [
     links: [
       {
         id: uuidv4(),
-        name: "Digitalizepro Services",
+        name: "DigitalizePro Services",
         link: "/services/accounting-services",
       },
       {
@@ -357,7 +357,7 @@ export const footerLinks = [
       },
       {
         id: uuidv4(),
-        name: "Healthcare Services",
+        name: "Sale Enablement Services",
         link: "/services/healthcare-services",
       },
       {
@@ -390,7 +390,7 @@ export const getInTouch = [
       },
       {
         id: uuidv4(),
-        name: "TR24, 3rd Floor, JMD Empire Square Mall, MG Road, Gurugram, Haryana India - 122001",
+        name: "TR24, 3rd Floor, JMD Empire Square Mall, MG Road, Gurugram, Haryana, India - 122001",
         isLink: false,
         icon: React.createElement(MdOutlineLocationOn),
       },
@@ -401,19 +401,19 @@ export const getInTouch = [
 export const teamContactDetails = [
   {
     id: uuidv4(),
-    name: "example@mail.com",
-    link: "mailto:example@mail.com",
+    name: "themotorpedia@gmail.com",
+    link: "themotorpedia@gmail.com",
     icon: React.createElement(PiEnvelopeFill),
   },
   {
     id: uuidv4(),
-    name: "(000) 123 456 789",
-    link: "tel:(000) 123 456 789",
+    name: "+91 99999-61887",
+    link: "tel:+91 99999-61887",
     icon: React.createElement(PiPhoneCallFill),
   },
   {
     id: uuidv4(),
-    name: "255 Sheet, City Name Home Land, NY",
+    name: "TR24, 3rd Floor, JMD Empire Square Mall, MG Road, Gurugram, Haryana, India - 122001",
     link: "",
     icon: React.createElement(PiMapPinFill),
   },
@@ -490,35 +490,35 @@ export const stepByStepCard = [
   },
 ];
 
-export const whyAccupayCard = [
+export const whyMotorpediaCard = [
   {
     id: uuidv4(),
-    img: whyAccupayCard1,
+    img: whyMotorpediaCard1,
     title: "Hire or relocate team member with in house visa support",
   },
   {
     id: uuidv4(),
-    img: whyAccupayCard2,
+    img: whyMotorpediaCard2,
     title: "Create complaint contracts with a single click very easyly",
   },
   {
     id: uuidv4(),
-    img: whyAccupayCard3,
+    img: whyMotorpediaCard3,
     title: "Send equipment worldwide, without the hassle free work",
   },
   {
     id: uuidv4(),
-    img: whyAccupayCard4,
+    img: whyMotorpediaCard4,
     title: "Offer country- specific benefits at competitive rates",
   },
   {
     id: uuidv4(),
-    img: whyAccupayCard5,
+    img: whyMotorpediaCard5,
     title: "Provide your team with co-working access via work life",
   },
   {
     id: uuidv4(),
-    img: whyAccupayCard6,
+    img: whyMotorpediaCard6,
     title: "Save time using our advance integrations technologies.",
   },
 ];
@@ -526,33 +526,33 @@ export const whyAccupayCard = [
 export const faqs = [
   {
     id: uuidv4(),
-    question: "What services does AccuPay offer?",
+    question: "What services does Motorpedia offer?",
     answer:
-      "AccuPay offers a comprehensive suite of services, including accounting, payroll processing, tax preparation, financial advisory, and global payroll solutions.",
+      "Motorpedia offers a comprehensive suite of services, including accounting, payroll processing, tax preparation, financial advisory, and global payroll solutions.",
   },
   {
     id: uuidv4(),
     question: "How does the accounting process work?",
     answer:
-      "AccuPay offers a comprehensive suite of services, including accounting, payroll processing, tax preparation, financial advisory, and global payroll solutions.",
+      "Motorpedia offers a comprehensive suite of services, including accounting, payroll processing, tax preparation, financial advisory, and global payroll solutions.",
   },
   {
     id: uuidv4(),
-    question: "Can AccuPay handle international payroll?",
+    question: "Can Motorpedia handle international payroll?",
     answer:
-      "AccuPay offers a comprehensive suite of services, including accounting, payroll processing, tax preparation, financial advisory, and global payroll solutions.",
+      "Motorpedia offers a comprehensive suite of services, including accounting, payroll processing, tax preparation, financial advisory, and global payroll solutions.",
   },
   {
     id: uuidv4(),
     question: "How quickly can services be initiated?",
     answer:
-      "AccuPay offers a comprehensive suite of services, including accounting, payroll processing, tax preparation, financial advisory, and global payroll solutions.",
+      "Motorpedia offers a comprehensive suite of services, including accounting, payroll processing, tax preparation, financial advisory, and global payroll solutions.",
   },
   {
     id: uuidv4(),
-    question: "How do I get in touch with AccuPay's?",
+    question: "How do I get in touch with Motorpedia's?",
     answer:
-      "AccuPay offers a comprehensive suite of services, including accounting, payroll processing, tax preparation, financial advisory, and global payroll solutions.",
+      "Motorpedia offers a comprehensive suite of services, including accounting, payroll processing, tax preparation, financial advisory, and global payroll solutions.",
   },
 ];
 
@@ -608,7 +608,7 @@ export const testimonials = [
   {
     id: uuidv4(),
     img: testimonial7,
-    name: "Jiya arya ",
+    name: "Jiya Arya ",
     designation: "Product Manager",
     review:
       "Absolutely thrilled with the service! Motorpedia showed unmatched professionalism and expertise",
@@ -688,9 +688,9 @@ export const contactCard = [
   {
     id: uuidv4(),
     icon: React.createElement(PiBinocularsFill),
-    title: "Compare Accupay",
-    desc: "Explore how AccuPay stands out. Check our comparison.",
-    linkText: "Compare Accupay",
+    title: "Compare Motorpedia",
+    desc: "Explore how Motorpedia stands out. Check our comparison.",
+    linkText: "Compare Motorpedia",
   },
   {
     id: uuidv4(),
@@ -720,26 +720,31 @@ export const integrationsCard = [
     id: uuidv4(),
     icon: React.createElement(HiCurrencyDollar),
     title: "Payment Gateways",
+    description: "lorem ipsum askdbiabda sbdkabd iabidsu ajksdbasdk asbsd",
   },
   {
     id: uuidv4(),
     icon: React.createElement(PiMoneyFill),
     title: "Tax Software Integration",
+    description: "lorem ipsum askdbiabda sbdkabd iabidsu ajksdbasdk asbsd",
   },
   {
     id: uuidv4(),
     icon: React.createElement(PiUsersThreeFill),
     title: "Expense Management",
+    description: "lorem ipsum askdbiabda sbdkabd iabidsu ajksdbasdk asbsd",
   },
   {
     id: uuidv4(),
     icon: React.createElement(PiTimerFill),
     title: "Time Tracking Systems",
+    description: "lorem ipsum askdbiabda sbdkabd iabidsu ajksdbasdk asbsd",
   },
   {
     id: uuidv4(),
     icon: React.createElement(PiHandshakeFill),
     title: "Customer Relationship",
+    description: "lorem ipsum askdbiabda sbdkabd iabidsu ajksdbasdk asbsd",
   },
 ];
 
@@ -747,12 +752,12 @@ export const storyData = [
   {
     id: uuidv4(),
     title: "Who We Are",
-    desc: "AccuPay has been at the forefront of delivering innovative financial solutions. Our journey began with a vision to simplify financial processes for businesses of all sizes. Today, we stand proud as a trusted partner, ",
+    desc: "Motorpedia has been at the forefront of delivering innovative financial solutions. Our journey began with a vision to simplify financial processes for businesses of all sizes. Today, we stand proud as a trusted partner, ",
   },
   {
     id: uuidv4(),
     title: "Our Mission",
-    desc: "AccuPay is on a mission to empower businesses by providing reliable, efficient, and innovative financial services. We strive to be your go-to partner for all your accounting and payroll needs, enabling you to focus on what you do best.",
+    desc: "Motorpedia is on a mission to empower businesses by providing reliable, efficient, and innovative financial services. We strive to be your go-to partner for all your accounting and payroll needs, enabling you to focus on what you do best.",
   },
   {
     id: uuidv4(),
@@ -825,7 +830,7 @@ export const coreServices = [
   {
     id: uuidv4(),
     icon: React.createElement(PiUserFill),
-    title: "Digitlisation Services",
+    title: "Accounting Services",
     link: "/services/accounting-services",
     desc: "Efficient payroll management is at the heart of our services. Experience seamless payroll processing,",
   },
@@ -1217,7 +1222,7 @@ export const teamList = [
   {
     id: uuidv4(),
     name: "Verna Gutierrez",
-    designation: "CEO, Accupay",
+    designation: "CEO, Motorpedia",
     img: teamPic6,
   },
 ];
@@ -1422,21 +1427,22 @@ export const contactPageCard = [
     id: uuidv4(),
     icon: React.createElement(PiEnvelopeFill),
     name: "Chat to Sales",
-    linkText: "accupay@mail.com",
-    link: "mailto:accupay@gmail.com",
+    linkText: "themotorpedia@gmail.com",
+    link: "mailto:themotorpedia@gmail.com",
   },
   {
     id: uuidv4(),
     icon: React.createElement(PiPhoneCallFill),
     name: "Contact Us",
-    linkText: "+9190-8687-3345-120",
-    link: "tel:+9190-8687-3345-120",
+    linkText: "+91 99999-61887",
+    link: "tel:+91 99999-61887",
   },
   {
     id: uuidv4(),
     icon: React.createElement(PiMapPinFill),
     name: "Visit Our Office",
-    address: "London 2HX, United Kingdom",
+    address:
+      "TR24, 3rd Floor, JMD Empire Square Mall, MG Road, Gurugram, Haryana, India - 122001",
   },
 ];
 

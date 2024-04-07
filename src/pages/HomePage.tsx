@@ -20,7 +20,6 @@ function HomePage() {
       <CompanySlider />
       <SolutionsSection />
       <Features />
-      
       <StepByStepGuide />
       <WhyAccoupay />
       <Integrations />
