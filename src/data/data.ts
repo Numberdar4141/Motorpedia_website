@@ -51,12 +51,12 @@ import {
 } from "react-icons/pi";
 import { v4 as uuidv4 } from "uuid";
 
-import whyMotorpediaCard1 from "/images/whyAccoupayCard_1.png";
-import whyMotorpediaCard2 from "/images/whyAccoupayCard_2.png";
-import whyMotorpediaCard3 from "/images/whyAccoupayCard_3.png";
-import whyMotorpediaCard4 from "/images/whyAccoupayCard_4.png";
-import whyMotorpediaCard5 from "/images/whyAccoupayCard_5.png";
-import whyMotorpediaCard6 from "/images/whyAccoupayCard_6.png";
+import whyMotorpediaCard1 from "/images/women1.jpg";
+import whyMotorpediaCard2 from "/images/women1.jpg";
+import whyMotorpediaCard3 from "/images/women1.jpg";
+import whyMotorpediaCard4 from "/images/women1.jpg";
+import whyMotorpediaCard5 from "/images/women1.jpg";
+import whyMotorpediaCard6 from "/images/women1.jpg";
 
 import testimonial1 from "/images/testimonial1.png";
 import testimonial2 from "/images/testimonial2.png";
@@ -422,22 +422,22 @@ export const teamContactDetails = [
 export const solutionsFeatures = [
   {
     id: uuidv4(),
-    name: "Tax Preparation",
+    name: "Ownership Transfer",
     icon: React.createElement(AiFillFileText),
   },
   {
     id: uuidv4(),
-    name: "Payroll Processing",
+    name: "Insurance Transfer",
     icon: React.createElement(PiHandCoinsFill),
   },
   {
     id: uuidv4(),
-    name: "Cost Effective",
+    name: "NOC issuance",
     icon: React.createElement(PiLightbulbFilamentFill),
   },
   {
     id: uuidv4(),
-    name: "Scale Rapidly",
+    name: "Challan Clearance",
     icon: React.createElement(PiRocketLaunchFill),
   },
 ];
@@ -446,26 +446,26 @@ export const featuresCard = [
   {
     id: uuidv4(),
     icon: React.createElement(FaUsers),
-    name: "EOR employees",
-    desc: "Easily hire and pay employees where you don’t have entities with Jonny’s world-wide infrastructure.",
+    name: "RTO Assistance Network",
+    desc: "Unorganized agent network catering to different RTO related needs…",
   },
   {
     id: uuidv4(),
     icon: React.createElement(PiHandCoinsFill),
-    name: "Global Payroll",
-    desc: "Streamline your global payroll with precision and compliance. Our expert services ensure accurate and timely.",
+    name: "Vendor Multiplicity",
+    desc: "Leads to multiple vendors and often requires large, dedicated teams to efficiently manage them effectively",
   },
   {
     id: uuidv4(),
     icon: React.createElement(PiUserGearFill),
-    name: "Contractors",
-    desc: "Reliable contractors delivering quality craftsmanship and exceptional service. Your perfect project,",
+    name: "Uncertainty",
+    desc: "The disorganized agent network leads to reliance on numerous vendors and lacks visibility on task completion dates",
   },
   {
     id: uuidv4(),
     icon: React.createElement(PiUserPlusFill),
-    name: "Direct employees",
-    desc: "Maximize workforce efficiency with our Direct Employees services. Streamline hiring, payroll,",
+    name: "Complexity",
+    desc: "In addition, the absence of standardized billing procedures compliant with GST regulations adds further complexity",
   },
 ];
 
@@ -494,33 +494,29 @@ export const whyMotorpediaCard = [
   {
     id: uuidv4(),
     img: whyMotorpediaCard1,
-    title: "Hire or relocate team member with in house visa support",
+    title: "Hire or relocate",
+    des : "Join our platform effortlessly! Streamlined user registration with secure verification."
   },
   {
     id: uuidv4(),
-    img: whyMotorpediaCard2,
-    title: "Create complaint contracts with a single click very easyly",
+    img: whyMotorpediaCard1,
+    title: "Hire or relocate",
+    des : "Join our platform effortlessly! Streamlined user registration with secure verification."
   },
   {
     id: uuidv4(),
-    img: whyMotorpediaCard3,
-    title: "Send equipment worldwide, without the hassle free work",
+    img: whyMotorpediaCard1,
+    title: "Hire or relocate",
+    des : "Join our platform effortlessly! Streamlined user registration with secure verification."
   },
   {
     id: uuidv4(),
-    img: whyMotorpediaCard4,
-    title: "Offer country- specific benefits at competitive rates",
+    img: whyMotorpediaCard1,
+    title: "Hire or relocate",
+    des : "Join our platform effortlessly! Streamlined user registration with secure verification."
   },
-  {
-    id: uuidv4(),
-    img: whyMotorpediaCard5,
-    title: "Provide your team with co-working access via work life",
-  },
-  {
-    id: uuidv4(),
-    img: whyMotorpediaCard6,
-    title: "Save time using our advance integrations technologies.",
-  },
+ 
+ 
 ];
 
 export const faqs = [

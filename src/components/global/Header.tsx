@@ -48,7 +48,7 @@ function Header() {
             : "animationTwo absolute"
         }`}
       >
-        <div className="flex justify-between items-center container text-s1 py-6">
+        <div className="flex justify-between items-center container text-s1 py-5">
           <div className="pb-1 flex justify-start items-center gap-3">
             <button
               className="lg:hidden text-3xl"
@@ -56,7 +56,7 @@ function Header() {
             >
               <RiMenuFoldFill />
             </button>
-            <div className="p-0">
+            <div className="">
               <Link to={"/"}>
                 <img src={logo} className="w-48" alt="motorpedia logo" />
               </Link>
