@@ -25,8 +25,9 @@ function Testimonial() {
             <h1 className="display-4  pt-4 ">Motorpedia Customer Stories</h1>
           </div>
           <p className="text-bodyText max-w-[500px]">
-            
-Rev up your automotive business with Motorpedia. Our versatile solutions have fueled success stories, offering the support necessary to navigate the dynamic world of car services with ease
+            Rev up your automotive business with Motorpedia. Our versatile
+            solutions have fueled success stories, offering the support
+            necessary to navigate the dynamic world of car services with ease
           </p>
         </div>
       </div>
@@ -69,12 +70,11 @@ Rev up your automotive business with Motorpedia. Our versatile solutions have fu
             },
           }}
         >
-          {testimonials.map(({ id,  name, designation, review }) => (
+          {testimonials.map(({ id, name, designation, review }) => (
             <SwiperSlide key={id}>
-              <div className="border  p-12 flex flex-col rounded-2xl shadow-sm bg-gray-100 justify-center items-center hover:bg-gray-200 hover:border-mainTextColor duration-700">
+              <div className="border  p-12 flex flex-col rounded-2xl shadow-sm bg-gray-100 justify-center items-center hover:bg-gray-200  hover:shadow-lg hover:scale-90 hover:border-mainTextColor duration-700 h-[230px]">
                 <p className="text-bodyText text-center">"{review}"</p>
                 <div className="flex gap-3 pt-3">
-                 
                   <div className="">
                     <p className="text-lg text-center font-medium">{name}</p>
                     <p className="text-center">{designation}</p>
@@ -85,7 +85,6 @@ Rev up your automotive business with Motorpedia. Our versatile solutions have fu
           ))}
         </Swiper>
       </div>
-     
     </section>
   );
 }

@@ -4,14 +4,14 @@ import SectionHeadingCenter from "../global/SectionHeadingCenter";
 import LinkButton from "../ui/LinkButton";
 import circleIcon from "/images/circleIcon.png";
 import sliceIcon from "/images/sliceIcon.png";
-import solutionIllus from "/images/solution_illustrations.png";
+import solutionIllus from "/images/women1.jpg";
 function SolutionsSection() {
   return (
     <section className="stp-30 sbp-30 relative">
       <img
         src={circleIcon}
         alt=""
-        className="absolute top-10 left-0 max-xxl:hidden xxl:-left-72 xxxl:-left-40 "
+        className="absolute top-10 left-0 max-xxl:hidden xxl:-left-72 xxxl:-left-40"
       />
       <img
         src={sliceIcon}
@@ -22,9 +22,8 @@ function SolutionsSection() {
         <div className="flex justify-center items-center">
           <SectionHeadingCenter
             sectionName="Solutions"
-            sectionTitle="The global payroll solution"
-            sectionDesc="When it comes to payroll solutions, we have a variety of options
-            that benefit both your company and your contractor."
+            sectionTitle="Why digital engagement matters."
+            sectionDesc="In today’s hyper-competitive retailing environment, the battle for shopper attention has never been greater. With myriad alternatives just a click away, the buyer journey has become increasingly complex. That means delivering consistent and engaging experiences at every touchpoint is now critical to keeping the attention of prospective buyers. And with more and more consumers making purchase decisions without ever seeing a vehicle in person, Digital Engagement has become a key driver of retailer success. Industry leaders are reimagining their entire omnichannel retail experience. What are you waiting for?"
           />
         </div>
         <div className="grid grid-cols-12 stp-15 max-lg:gap-6">
@@ -33,17 +32,16 @@ function SolutionsSection() {
               <img
                 src={solutionIllus}
                 alt=""
-                className=" hover:scale-110 duration-500 w-full"
+                className=" hover:scale-110 rounded-2xl duration-500 w-full"
               />
             </div>
           </div>
           <div className="col-span-12 lg:col-start-8 lg:col-span-5 flex justify-center items-start lg:items-center flex-col">
-            <h1 className="heading-1 pb-5 ">Consolidate Payroll Processing</h1>
+            <h1 className="heading-1 pb-5 ">Our Offerings for Used Vehicles</h1>
             <p className="text-bodyText">
-              We have designed a fast and effective payroll system that
-              streamlines your payment process.
+            Do you really understand the unique needs and preferences of each shopper?
             </p>
-            <div className="grid grid-cols-2 gap-4 lg:gap-6 py-6 lg:py-10 w-full">
+            <div className="grid grid-cols-2  gap-4 lg:gap-6 py-6 lg:py-10 w-full">
               {solutionsFeatures.map(({ id, name, icon }, idx) => (
                 <div className=" group col-span-2 sm:col-span-1" key={id}>
                   <StaggerEffect id={idx}>

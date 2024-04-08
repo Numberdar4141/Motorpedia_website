@@ -1,23 +1,38 @@
 // Import Swiper styles
 import "swiper/css";
 // Import Swiper React components
-import { Link } from "react-router-dom";
+//import { Link } from "react-router-dom";
 import { Autoplay, FreeMode } from "swiper/modules";
 import { Swiper, SwiperSlide } from "swiper/react";
-import logo1 from "/images/logo1.png";
-import logo2 from "/images/logo2.png";
-import logo3 from "/images/logo3.png";
-import logo4 from "/images/logo4.png";
+import logo1 from "/images/cars24.png";
+import logo2 from "/images/spinny.jpg";
+import logo3 from "/images/mfc.png";
+import logo4 from "/images/bbt.png";
+import logo5 from "/images/bikespe.jpg";
+import logo6 from "/images/carghar.png";
 
-const sponsorsImg = [logo1, logo2, logo3, logo4, logo1, logo2, logo3, logo4];
+const sponsorsImg = [
+  logo1,
+  logo2,
+  logo3,
+  logo4,
+  logo5,
+  logo6,
+  logo1,
+  logo2,
+  logo3,
+  logo4,
+  logo5,
+  logo6,
+];
 
 function CompanySlider() {
   return (
     <section className="stp-15 sbp-15 container grid grid-cols-12 gap-6 border-b border-strokeColor">
       <div className="col-span-12 sm:col-span-6 xl:col-span-4">
         <p className="text-xl lg:text-2xl text-bodyText relative after:absolute after:top-[55%] after:right-0 after:w-[50px] after:h-[2px] after:bg-bodyText max-xxl:after:content-none">
-          <span className="font-bold text-mainTextColor">15,000+</span>{" "}
-          businesses from small startups to household names
+          <span className="font-bold text-[25px] text-mainTextColor"> Our automotive software solutions </span>{" "}
+      <span className="text-[20px]">    are trusted by thousands of ,businesses  <br /> and millions of happy customers</span>
         </p>
       </div>
       <div className="col-span-12 sm:col-span-6 xl:col-span-8 flex pt-4">
@@ -66,9 +81,9 @@ function CompanySlider() {
         >
           {sponsorsImg.map((item, idx) => (
             <SwiperSlide key={idx}>
-              <Link to={"#"} className=" flex justify-center items-center">
+              <div className=" flex justify-center items-center">
                 <img src={item} alt="sponsor image" />
-              </Link>
+              </div>
             </SwiperSlide>
           ))}
         </Swiper>
