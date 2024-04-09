@@ -1,28 +1,28 @@
 import { whatWeDo } from "../../data/data";
 import SectionHeadingCenter from "../global/SectionHeadingCenter";
-import img from "/images/what_we_do.png";
+import img from "/images/lead21.png";
 
 function WhatWeDo() {
   return (
-    <section className=" bg-softBg1 stp-30 sbp-30">
+    <section className=" bg-[url(/images/counter_bg.png)]   stp-30 sbp-30">
       <div className="container">
-        <div className="flex justify-center items-center">
+        <div className="flex justify-center text-white items-center">
           <SectionHeadingCenter
             sectionName="What We Do"
-            sectionTitle="Payroll services we provide for the client"
-            sectionDesc="At Motorpedia, we specialize in delivering comprehensive Accounting and Payroll Processing services"
+            sectionTitle="Lead generation"
+            sectionDesc="Revolutionize lead generation with our digitalization services. Harness cutting-edge technology for unparalleled growth"
           />
         </div>
-        <div className="grid grid-cols-12 gap-6 stp-15">
+        <div className="grid grid-cols-9 gap-6 stp-15">
           <div className="col-span-12 lg:col-span-6 xl:col-span-5 flex overflow-hidden justify-center items-center self-stretch">
             <img
               src={img}
               alt=""
-              className=" hover:scale-110 duration-500 w-full h-full"
+              className=" hover:scale-110 rounded-2xl w-full  duration-500 h-[500px]"
             />
           </div>
 
-          <div className="col-span-12 lg:col-span-6 lg:col-start-7 flex flex-col gap-6 xl:gap-10 justify-start items-start">
+          <div className="col-span-12 lg:col-span-6 lg:col-start-7 text-white flex flex-col gap-6 xl:gap-10 justify-start items-start">
             {whatWeDo.map(({ id, title, desc }, idx) => (
               <div
                 key={id}
@@ -47,7 +47,7 @@ function WhatWeDo() {
                   }`}
                 >
                   <h4 className="heading-4">{title}</h4>
-                  <p className=" text-bodyText pt-4 pb-6 xl:pb-10">{desc}</p>
+                  <p className=" text-white pt-3 pb-3 ">{desc}</p>
                 </div>
               </div>
             ))}

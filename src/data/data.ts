@@ -52,11 +52,9 @@ import {
 import { v4 as uuidv4 } from "uuid";
 
 import whyMotorpediaCard1 from "/images/women1.jpg";
-import whyMotorpediaCard2 from "/images/women1.jpg";
-import whyMotorpediaCard3 from "/images/women1.jpg";
-import whyMotorpediaCard4 from "/images/women1.jpg";
-import whyMotorpediaCard5 from "/images/women1.jpg";
-import whyMotorpediaCard6 from "/images/women1.jpg";
+//import whyMotorpediaCard2 from "/images/women1.jpg";
+//import whyMotorpediaCard3 from "/images/women1.jpg";
+//import whyMotorpediaCard4 from "/images/women1.jpg";
 
 import testimonial1 from "/images/testimonial1.png";
 import testimonial2 from "/images/testimonial2.png";
@@ -870,23 +868,23 @@ export const coreServices = [
 export const whatWeDo = [
   {
     id: uuidv4(),
-    title: "Payroll Processing Services",
-    desc: "Efficiently manage your payroll with our state-of-the-art processing services. From accurate salary disbursements.",
+    title: "Target Audience Identification",
+    desc: "Pinpoint your ideal customer base through thorough market analysis and demographic research, ensuring precise targeting for effective lead generation",
   },
   {
     id: uuidv4(),
-    title: "Accounting and Bookkeeping",
-    desc: "Navigate the complexities of financial management with our professional accounting and bookkeeping services. ",
+    title: "Engaging Content Creation",
+    desc: "Craft compelling and relevant content tailored to your audience's needs and preferences, capturing their attention and encouraging them to take action",
   },
   {
     id: uuidv4(),
-    title: "Tax Preparation and Filing",
-    desc: "Ensure a seamless tax season with our expert tax preparation and filing services. We handle all necessary documentation.",
+    title: "Multi-Channel Promotion",
+    desc: "Utilize a variety of digital channels such as social media, email marketing, SEO, and PPC advertising to reach potential leads wherever they may be online",
   },
   {
     id: uuidv4(),
-    title: "Financial Advisory",
-    desc: "Empower your business with strategic financial guidance. Our experienced advisors provide insights and recommendations.",
+    title: "Data-Driven Optimization",
+    desc: "Continuously analyze and refine your lead generation strategies based on real-time data insights, maximizing efficiency and ROI for sustainable business growth",
   },
 ];
 
@@ -960,26 +958,26 @@ export const accountantFeatures = [
 export const taxationFeatures = [
   {
     id: uuidv4(),
-    title: "Tax Preparation and Filing",
-    desc: "Ensure a seamless tax season with our expert tax preparation services. We handle all necessary documentation and filing requirements,",
+    title: "Flexible Payment Options",
+    desc: "Our finance section provides a range of payment plans to suit your budget and preferences, whether you prefer traditional financing, leasing options, or even buy-here-pay-here arrangements.",
     icon: React.createElement(PiCoinFill),
   },
   {
     id: uuidv4(),
-    title: "Strategic Tax Planning",
-    desc: "Plan for the future with our strategic tax planning services. We help optimize your financial decisions to maximize savings and minimize potential risks.",
+    title: "Competitive Rates",
+    desc: "Benefit from competitive interest rates and favorable terms designed to make your used car purchase more affordable. ",
     icon: React.createElement(PiHandCoinsFill),
   },
   {
     id: uuidv4(),
-    title: "Compliance Assurance",
-    desc: "Stay compliant with ever-changing tax regulations. Our team stays abreast of updates, ensuring your business adheres to all relevant tax laws",
+    title: "Assistance with Financing",
+    desc: "Our team is here to guide you through the financing process, offering assistance in securing loans and navigating paperwork.",
     icon: React.createElement(PiSealCheckFill),
   },
   {
     id: uuidv4(),
-    title: "Audit Support",
-    desc: "In the event of an audit, our experienced team provides support, helping you navigate the process efficiently and effectively.",
+    title: "Peace of Mind",
+    desc: "Drive away with confidence knowing that your financing needs are taken care of. With transparent terms and reliable support, you can focus on enjoying your new-to-you vehicle without worrying about the financial aspects.",
     icon: React.createElement(PiHeadphonesFill),
   },
 ];
@@ -1057,7 +1055,7 @@ export const healthCareFeatures = [
   {
     id: uuidv4(),
     icon: React.createElement(PiHandCoinsFill),
-    title: "Payroll for Healthcare Professionals",
+    title: "Comprehensive Warranty Coverage",
     desc: "Efficient payroll processing tailored to the unique needs of healthcare professionals. Ensure accurate and timely compensation",
   },
   {
@@ -1107,26 +1105,26 @@ export const dentistSectionFeatures = [
   {
     id: uuidv4(),
     icon: React.createElement(PiToothFill),
-    title: "Payroll for Dental Professionals",
-    desc: "Accurate and efficient payroll processing tailored to meet the unique needs of dental professionals. Ensure your dedicated team",
+    title: "Targeted Advertising",
+    desc: " Reach potential car buyers precisely where they are, leveraging advanced targeting tools to maximize exposure and engagement.",
   },
   {
     id: uuidv4(),
     icon: React.createElement(PiUsersThreeFill),
-    title: "Compliance Management",
-    desc: "Stay compliant with the ever-evolving regulations in the dental industry. Our services include compliance management",
+    title: "Compelling Content Creation",
+    desc: "Captivate audiences with visually stunning imagery, informative videos, and persuasive copywriting, enticing them to explore your inventory further.",
   },
   {
     id: uuidv4(),
     icon: React.createElement(PiUserFill),
-    title: "Financial Advisory for Dental Practices",
-    desc: "Navigate the financial landscape of dental care with our expert advisory services. From budgeting to strategic planning,",
+    title: "Search Engine Optimization (SEO)",
+    desc: "Enhance your website's visibility on search engines, ensuring that your car listings rank prominently for relevant search queries.",
   },
   {
     id: uuidv4(),
     icon: React.createElement(PiUsersThreeFill),
-    title: "Dental Consulting",
-    desc: "Receive personalized consulting services to address the unique challenges of your dental practice.",
+    title: "Social Media Engagement",
+    desc: " Leverage the power of social media platforms to build brand awareness, engage with potential buyers, and showcase your inventory in an interactive and appealing manner",
   },
 ];
 

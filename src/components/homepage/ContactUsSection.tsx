@@ -1,7 +1,7 @@
 import FadeDown from "../animation/FadeDown";
 import FadeRight from "../animation/FadeRight";
 import FadeTop from "../animation/FadeTop";
-import LinkButton from "../ui/LinkButton";
+//import LinkButton from "../ui/LinkButton";
 import playstore from "/images/playstorlogo.png";
 import contactIllus from "/images/contact_illus.png";
 
