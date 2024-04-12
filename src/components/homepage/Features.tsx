@@ -5,21 +5,18 @@ import StaggerEffect from "../animation/StaggerEffectOne";
 
 function Features() {
   return (
-    <section className="  bg-[url(/images/counter_bg.png)]  stp-30 sbp-30">
+    <section className="  bg-[url(/images/counter_bg.jpeg)] stp-30 sbp-30">
       <div className="container">
         <div className="flex justify-between items-end gap-6 max-lg:flex-col max-lg:items-start">
           <div className="  max-w-[600px] flex justify-center items-start flex-col">
-            <p className="bg-s3 py-3 px-5 rounded-full text-black font-bold ">
-              Features
-            </p>
+           
             <h1 className="display-4  text-white pt-4 ">
-              Perfect solutions for your Car
+            Streamlined Dealership Solutions
+
             </h1>
           </div>
           <p className="text-white max-w-[500px]">
-            We’re simplifying every aspect of managing a world-wide team, from
-            benefits and equity to working visas and equipment. It’s one
-            platform made to get you set up.
+          Optimizing your dealership experience with our comprehensive suite of solutions, streamlining operations and boosting efficiency for greater success."
           </p>
         </div>
         <div className="grid grid-cols-12 gap-6 stp-15">
@@ -33,7 +30,7 @@ function Features() {
                   <h4 className="heading-4 group-hover:text-mainTextColor text-white pb-5">
                     {name}
                   </h4>
-                  <p className=" text-white group-hover:text-mainTextColor pb-6">
+                  <p className=" text-white group-hover:text-mainTextColor pb-4">
                     {desc}
                   </p>
                   <Link

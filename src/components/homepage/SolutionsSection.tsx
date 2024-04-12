@@ -4,7 +4,7 @@ import SectionHeadingCenter from "../global/SectionHeadingCenter";
 import LinkButton from "../ui/LinkButton";
 import circleIcon from "/images/circleIcon.png";
 import sliceIcon from "/images/sliceIcon.png";
-import solutionIllus from "/images/women1.jpg";
+import solutionIllus from "/images/design2.png";
 function SolutionsSection() {
   return (
     <section className="stp-30 sbp-30 relative">
@@ -19,11 +19,11 @@ function SolutionsSection() {
         className="absolute right-0 sm:right-2 lg:right-10 top-10 xl:top-32 max-md:h-[80px]"
       />
       <div className="container z-10 relative">
-        <div className="flex justify-center items-center">
+        <div className="flex justify-center items-center ">
           <SectionHeadingCenter
             sectionName="Solutions"
-            sectionTitle="Why digital engagement matters."
-            sectionDesc="In today’s hyper-competitive retailing environment, the battle for shopper attention has never been greater. With myriad alternatives just a click away, the buyer journey has become increasingly complex. That means delivering consistent and engaging experiences at every touchpoint is now critical to keeping the attention of prospective buyers. And with more and more consumers making purchase decisions without ever seeing a vehicle in person, Digital Engagement has become a key driver of retailer success. Industry leaders are reimagining their entire omnichannel retail experience. What are you waiting for?"
+            sectionTitle="Why digitalization matters ?"
+            sectionDesc="Digitalization is key for auto dealership for better customer engagement and operations. It provides tools like online configurators, meeting modern needs. By optimizing processes and enabling data-driven decisions, it cuts costs and boosts efficiency. Effective digital use also enhances marketing, satisfaction, and conversion in a Competitive market."
           />
         </div>
         <div className="grid grid-cols-12 stp-15 max-lg:gap-6">
@@ -36,10 +36,11 @@ function SolutionsSection() {
               />
             </div>
           </div>
-          <div className="col-span-12 lg:col-start-8 lg:col-span-5 flex justify-center items-start lg:items-center flex-col">
-            <h1 className="heading-1 pb-5 ">Our Offerings for Used Vehicles</h1>
-            <p className="text-bodyText">
-            Do you really understand the unique needs and preferences of each shopper?
+          <div className="col-span-12 lg:col-start-8 lg:col-span-5 flex justify-center items-center  lg:items-center flex-col">
+            <h1 className="heading-1 pb-3 ">Upgrade your Driving </h1>
+            <h1 className="heading-1 pb-2">Experience</h1>
+            <p className="text-bodyText text-xl">
+            Tailored selection just for you
             </p>
             <div className="grid grid-cols-2  gap-4 lg:gap-6 py-6 lg:py-10 w-full">
               {solutionsFeatures.map(({ id, name, icon }, idx) => (
@@ -57,12 +58,13 @@ function SolutionsSection() {
                 </div>
               ))}
             </div>
-            <div className=" flex justify-start items-start w-full">
+            <div className=" flex justify-start  items-start w-full">
               <LinkButton link="/contact" text="Contact Us" />
             </div>
           </div>
         </div>
       </div>
+      <br></br>
     </section>
   );
 }

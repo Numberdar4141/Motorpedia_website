@@ -17,18 +17,14 @@ function Testimonial() {
         />
       </div>
       <div className="container">
-        <div className="flex justify-between items-end gap-6 max-lg:flex-col max-lg:items-start">
-          <div className="  max-w-[600px] flex justify-center items-start flex-col">
+        <div className="flex justify-center items-cneter gap-6 max-lg:flex-col max-lg:items-center">
+          <div className="  max-w-[600px] flex justify-center items-center flex-col">
             <p className="bg-p1 py-3 px-5 rounded-full text-white ">
               Testimonial
             </p>
-            <h1 className="display-4  pt-4 ">Motorpedia Customer Stories</h1>
+            <h1 className="display-4  pt-4 ">Testimonials</h1>
           </div>
-          <p className="text-bodyText max-w-[500px]">
-            Rev up your automotive business with Motorpedia. Our versatile
-            solutions have fueled success stories, offering the support
-            necessary to navigate the dynamic world of car services with ease
-          </p>
+          
         </div>
       </div>
       <div className="sponsors stp-15">

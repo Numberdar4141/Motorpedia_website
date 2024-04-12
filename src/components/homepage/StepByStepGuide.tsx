@@ -9,9 +9,8 @@ function StepByStepGuide() {
       <div className="container">
         <SectionHeadingCenter
           sectionName="How it works"
-          sectionTitle="A Step-by-Step Guide to Our Platform"
-          sectionDesc="Explore our platform with ease! Sign up, select your industry, and
-              seamlessly integrate our tailored payment solutions."
+          sectionTitle="Transform your conventional dealership with AI-powered experience center !"
+          sectionDesc="Discover our user-friendly platform, expertly curated for auto dealerships by automotive professionals!"
         />
         <div className="flex justify-between items-center gap-6 md:gap-4 lg:gap-6 stp-15 relative max-md:flex-col">
           <img
