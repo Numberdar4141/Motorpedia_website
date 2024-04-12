@@ -9,7 +9,7 @@ type Props = {
 
 function SectionHeadingCenter({ sectionTitle, sectionDesc }: Props) {
   return (
-    <div className="flex justify-center items-center max-xxl:overflow-hidden">
+    <div className="flex justify-center items-center max-xxl:oversflow-hidden">
       <div className="  max-w-[700px] text-center flex justify-center items-center flex-col">
         <FadeLeft>
           <h1 className="display-4 text-[45px]  pt-4 pb-4 lg:pb-6">
