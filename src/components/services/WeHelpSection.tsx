@@ -15,12 +15,20 @@ function WeHelpSection() {
     <section className="stp-30 sbp-30">
       <div className="container grid grid-cols-12 gap-6">
         <div className="col-span-12 md:col-span-6">
+<<<<<<< HEAD
           <h1 className="display-4">Digital Showroom</h1>
           <p className=" text-bodyText pt-4 pb-6 lg:pb-8">
             Experience automotive excellence redefined at Digital Showroom. Our
             immersive digital platform brings the showroom to your fingertips,
             offering a seamless exploration of top-tier vehicles with
             unparalleled convenience and sophistication
+=======
+          <h1 className="display-4">
+          Digital Showroom
+          </h1>
+          <p className=" text-bodyText pt-4 pb-6 lg:pb-8">
+          Experience automotive excellence redefined at Digital Showroom. Our immersive digital platform brings the showroom to your fingertips, offering a seamless exploration of top-tier vehicles with unparalleled convenience and sophistication
+>>>>>>> 18a9b92e7c36558337b803a558762d62f0aa6c14
           </p>
           <h3 className="heading-3 pb-6">Our Digital Showroom Offerings:</h3>
           <ul className="flex flex-col gap-5 justify-start items-start">

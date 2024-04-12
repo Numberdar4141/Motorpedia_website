@@ -1,9 +1,14 @@
 import CTASectiont from "../components/homepage/CTASectiont";
 
+<<<<<<< HEAD
 
 import HealthCareSection from "../components/services/HealthCareSection";
 import ManageHealthSection from "../components/services/ManageHealthSection";
 import SearvicesFeaturesSection from "../components/services/SearvicesFeaturesSection";
+=======
+import Testimonial from "../components/homepage/Testimonial";
+import HealthCareSection from "../components/services/HealthCareSection";
+>>>>>>> 18a9b92e7c36558337b803a558762d62f0aa6c14
 import TaxationSection from "../components/services/TaxationSection";
 import TaxationVideoSection from "../components/services/TaxationVideoSection";
 import WhatWeDoTaxation from "../components/services/WhatWeDoTaxation";

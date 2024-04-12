@@ -1,12 +1,17 @@
 import { dentistSectionFeatures } from "../../data/data";
 import StaggerEffect from "../animation/StaggerEffectOne";
+<<<<<<< HEAD
 import img from "/images/img3.webp";
+=======
+import img from "/images/lead1.png";
+>>>>>>> 18a9b92e7c36558337b803a558762d62f0aa6c14
 
 function DentistSection() {
   return (
     <section className="stp-30 sbp-30">
       <div className="container grid grid-cols-12 gap-6">
         <div className="col-span-12 lg:col-span-6 xxl:col-span-5 flex justify-start items-start flex-col">
+<<<<<<< HEAD
           <p className="bg-p1 py-3 px-5 rounded-full text-white ">
             Online marketing
           </p>
@@ -14,6 +19,14 @@ function DentistSection() {
           <p className=" text-bodyText pb-6 lg:pb-10">
             Accelerate your car sales with our expert online marketing
             strategies. Reach more buyers and drive your business forward today.
+=======
+          <p className="bg-p1 py-3 px-5 rounded-full text-white ">Online marketing</p>
+          <h2 className="display-4 pt-4 pb-6">
+          Drive Your Sales
+          </h2>
+          <p className=" text-bodyText pb-6 lg:pb-10">
+          Accelerate your car sales with our expert online marketing strategies. Reach more buyers and drive your business forward today.
+>>>>>>> 18a9b92e7c36558337b803a558762d62f0aa6c14
           </p>
           <div className="flex justify-center items-center w-full overflow-hidden">
             <img

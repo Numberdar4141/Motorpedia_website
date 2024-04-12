@@ -63,12 +63,19 @@ import {
 } from "react-icons/pi";
 import { v4 as uuidv4 } from "uuid";
 
+<<<<<<< HEAD
 //import whyMotorpediaCard1 from "/images/whyAccoupayCard_1.png";
 import whyMotorpediaCard2 from "/images/RTO1.png";
 import whyMotorpediaCard3 from "/images/cars12.jpg";
 import whyMotorpediaCard4 from "/images/personal.jpg";
 // import whyMotorpediaCard5 from "/images/whyAccoupayCard_5.png";
 // import whyMotorpediaCard6 from "/images/whyAccoupayCard_6.png";
+=======
+import whyMotorpediaCard1 from "/images/women1.jpg";
+//import whyMotorpediaCard2 from "/images/women1.jpg";
+//import whyMotorpediaCard3 from "/images/women1.jpg";
+//import whyMotorpediaCard4 from "/images/women1.jpg";
+>>>>>>> 18a9b92e7c36558337b803a558762d62f0aa6c14
 
 import testimonial1 from "/images/testimonial1.png";
 import testimonial2 from "/images/testimonial2.png";
@@ -1023,26 +1030,26 @@ export const accountantFeatures = [
 export const taxationFeatures = [
   {
     id: uuidv4(),
-    title: "Tax Preparation and Filing",
-    desc: "Ensure a seamless tax season with our expert tax preparation services. We handle all necessary documentation and filing requirements,",
+    title: "Flexible Payment Options",
+    desc: "Our finance section provides a range of payment plans to suit your budget and preferences, whether you prefer traditional financing, leasing options, or even buy-here-pay-here arrangements.",
     icon: React.createElement(PiCoinFill),
   },
   {
     id: uuidv4(),
-    title: "Strategic Tax Planning",
-    desc: "Plan for the future with our strategic tax planning services. We help optimize your financial decisions to maximize savings and minimize potential risks.",
+    title: "Competitive Rates",
+    desc: "Benefit from competitive interest rates and favorable terms designed to make your used car purchase more affordable. ",
     icon: React.createElement(PiHandCoinsFill),
   },
   {
     id: uuidv4(),
-    title: "Compliance Assurance",
-    desc: "Stay compliant with ever-changing tax regulations. Our team stays abreast of updates, ensuring your business adheres to all relevant tax laws",
+    title: "Assistance with Financing",
+    desc: "Our team is here to guide you through the financing process, offering assistance in securing loans and navigating paperwork.",
     icon: React.createElement(PiSealCheckFill),
   },
   {
     id: uuidv4(),
-    title: "Audit Support",
-    desc: "In the event of an audit, our experienced team provides support, helping you navigate the process efficiently and effectively.",
+    title: "Peace of Mind",
+    desc: "Drive away with confidence knowing that your financing needs are taken care of. With transparent terms and reliable support, you can focus on enjoying your new-to-you vehicle without worrying about the financial aspects.",
     icon: React.createElement(PiHeadphonesFill),
   },
 ];
@@ -1120,7 +1127,7 @@ export const healthCareFeatures = [
   {
     id: uuidv4(),
     icon: React.createElement(PiHandCoinsFill),
-    title: "Payroll for Healthcare Professionals",
+    title: "Comprehensive Warranty Coverage",
     desc: "Efficient payroll processing tailored to the unique needs of healthcare professionals. Ensure accurate and timely compensation",
   },
   {

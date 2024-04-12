@@ -1,7 +1,13 @@
 import FadeDown from "../animation/FadeDown";
 import FadeRight from "../animation/FadeRight";
+<<<<<<< HEAD
 import FadeTop from "../animation/FadeTop"; 
 //import LinkButton from "../ui/LinkButton";
+=======
+import FadeTop from "../animation/FadeTop";
+//import LinkButton from "../ui/LinkButton";
+import playstore from "/images/playstorlogo.png";
+>>>>>>> 18a9b92e7c36558337b803a558762d62f0aa6c14
 import contactIllus from "/images/contact_illus.png";
 import download_google from "/images/googleplay.png";
 import download_apple from "/images/ioslogo1.jpg";

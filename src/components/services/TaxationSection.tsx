@@ -11,16 +11,25 @@ function TaxationSection() {
           <FadeLeft>
             <div className=" flex justify-start items-start flex-col">
               <p className="bg-p1 py-3 px-5 rounded-full text-white ">
+<<<<<<< HEAD
                 Finance
+=======
+              Finance
+>>>>>>> 18a9b92e7c36558337b803a558762d62f0aa6c14
               </p>
               <h2 className="display-4 pt-4 pb-6">
                 Motorpedia's Finance Expertise
               </h2>
               <p className=" text-bodyText pb-10">
+<<<<<<< HEAD
                 Explore our finance section for flexible payment options
                 tailored to your needs. We offer competitive rates and
                 assistance in securing financing for your next used car
                 purchase.
+=======
+                
+Explore our finance section for flexible payment options tailored to your needs. We offer competitive rates and assistance in securing financing for your next used car purchase.
+>>>>>>> 18a9b92e7c36558337b803a558762d62f0aa6c14
               </p>
               <div className="flex justify-center items-center w-full overflow-hidden">
                 <img

@@ -3,11 +3,16 @@ import StaggerEffect from "../animation/StaggerEffectOne";
 
 function WhatWeDoTaxation() {
   return (
+<<<<<<< HEAD
     <section className="bg-[url(/images/counter_bg.jpeg)] stp-30 sbp-30">
+=======
+    <section className="bg-[url(/images/counter_bg.png)] stp-30 sbp-30">
+>>>>>>> 18a9b92e7c36558337b803a558762d62f0aa6c14
       <div className="container">
         <div className="flex justify-between items-end gap-6 max-lg:flex-col max-lg:items-start">
           <div className="  max-w-[600px] flex justify-center items-start flex-col">
             <p className="bg-p1 py-3 px-5 rounded-full text-white ">
+<<<<<<< HEAD
               Insurance
             </p>
             <h1 className="display-4  text-white pt-4 ">
@@ -20,6 +25,16 @@ function WhatWeDoTaxation() {
             policies tailored to your needs and budget. Drive confidently
             knowing your vehicle, passengers, and assets are safeguarded against
             unexpected events
+=======
+            Insurance
+            </p>
+            <h1 className="display-4  text-white pt-4 ">
+            Drive with Confidence: Car Insurance Solutions
+            </h1>
+          </div>
+          <p className="text-white max-w-[500px]">
+          Secure peace of mind on the road with our comprehensive car insurance options. From basic coverage to premium packages, we offer policies tailored to your needs and budget. Drive confidently knowing your vehicle, passengers, and assets are safeguarded against unexpected events
+>>>>>>> 18a9b92e7c36558337b803a558762d62f0aa6c14
           </p>
         </div>
         <div className="grid grid-cols-12 gap-6 stp-15">

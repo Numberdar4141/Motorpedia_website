@@ -1,9 +1,14 @@
 import { whatWeDo } from "../../data/data";
+<<<<<<< HEAD
 //import SectionHeadingCenter from "../global/SectionHeadingCenter";
+=======
+import SectionHeadingCenter from "../global/SectionHeadingCenter";
+>>>>>>> 18a9b92e7c36558337b803a558762d62f0aa6c14
 import img from "/images/lead21.png";
 
 function WhatWeDo() {
   return (
+<<<<<<< HEAD
     <section className=" bg-[url(/images/counter_bg.jpeg)]   stp-30 sbp-30">
       <div className="container">
         <div className="flex justify-center text-white items-center">
@@ -15,6 +20,16 @@ function WhatWeDo() {
               Harness cutting-edge technology for unparalleled growth
             </h1>
           </div>
+=======
+    <section className=" bg-[url(/images/counter_bg.png)]   stp-30 sbp-30">
+      <div className="container">
+        <div className="flex justify-center text-white items-center">
+          <SectionHeadingCenter
+            sectionName="What We Do"
+            sectionTitle="Lead generation"
+            sectionDesc="Revolutionize lead generation with our digitalization services. Harness cutting-edge technology for unparalleled growth"
+          />
+>>>>>>> 18a9b92e7c36558337b803a558762d62f0aa6c14
         </div>
         <div className="grid grid-cols-9 gap-6 stp-15">
           <div className="col-span-12 lg:col-span-6 xl:col-span-5 flex overflow-hidden justify-center items-center self-stretch">
